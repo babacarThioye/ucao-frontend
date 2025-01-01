@@ -1,0 +1,33 @@
+<c-container>
+
+  <c-toaster placement="top-end" position="absolute">
+    <c-toast color="danger" *ngIf="errorMessage" [autohide]="false" visible>
+      <c-toast-header>
+        <strong class="me-auto">Connexion impossible</strong>
+        <small class="text-muted">maintenant</small>
+      </c-toast-header>
+      <c-toast-body>{{errorMessage}}</c-toast-body>
+    </c-toast>
+  </c-toaster>
+  <c-card>
+    <c-card-body>
+      <h5 cCardTitle>Liste des utilisateurs</h5>
+      <table cTable small>
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nom d'utilisateur</th>
+            <th scope="col">email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of users; index as i">
+            <th scope="row">{{i}}</th>
+            <td>{{user.username}}</td>
+            <td>{{user.email}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </c-card-body>
+  </c-card>
+</c-container>
