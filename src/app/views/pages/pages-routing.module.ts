@@ -80,7 +80,6 @@ const routes: Routes = [
     component: ListUserComponent,
     data: {
       title: 'Utilisateurs',
-      role: 'admin'
     },
   },
   {
