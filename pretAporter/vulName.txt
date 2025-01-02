@@ -1,5 +1,3 @@
-user1   
-admin   
 Ram																					
 Mohammed																					
 Sunita																					
@@ -73,7 +71,8 @@ Prakash
 Saroj																					
 Surendra																					
 Sarita																					
-Jyoti																					
+Jyoti	
+user1    																				
 Mahendra																					
 Kavita																					
 Mamta																					
@@ -109,7 +108,8 @@ Kamala
 Babu																					
 Arjun																					
 Renu																					
-Kailash																					
+Kailash	
+admin																				
 Sangeeta																					
 Satish																					
 Bharat																					
